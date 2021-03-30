@@ -4,8 +4,8 @@ English
 - **03-30-2021**
 
 	Initial setup for GitHub repo:
-		- Update `Changelog`
-		- Update `Readme`
+	- Update `Changelog`
+	- Update `Readme`
 		
 - **03-29-2021**
 
