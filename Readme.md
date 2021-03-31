@@ -9,6 +9,12 @@
 
 #### This repo is currently compatible with macOS Catalina and OpenCore 0.6.7
 
+This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
+
+This EFI is built and tested on Catalina 10.15.7: for the moment I stick with Catalina since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
+
+**This repository is for personal purposes**
+
 ### DISCLAIMER
 
 - Read the entire README before you start.
@@ -21,11 +27,15 @@ If you find this bootloader configuration useful, consider **giving** it **a sta
 
 If you find my work useful, please consider **donating via PayPal**. [![donate](https://img.shields.io/badge/-buy%20me%20a%20coffee-orange)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TSJHK3C2BSQN6&currency_code=EUR)
 
-## Introduction
+## BIOS Settings
 
-This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
-
-**This repository is for personal purposes**
+ Update to the [latest BIOS version](https://downloadcenter.intel.com/it/product/95066/Kit-Intel-NUC-NUC7i3BNH), then load BIOS **Defaults** and finally in the **Advanced** submenu change the following settings:
+- `Devices -> USB -> Port Device Charging Mode: Off`
+- `Devices -> USB -> USB Legacy -> Disabled`
+- `Security -> Thunderbolt Security Level: Legacy Mode`
+- `Power -> Wake on LAN from S4/S5: Stay Off`
+- `Boot -> Boot Configuration -> Network Boot: Disable`
+- `Boot -> Secure Boot -> Disable`
 
 ### Generate your own SMBIOS Information
 

@@ -1,6 +1,12 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **03-31-2021**
+
+	**Update**
+	- Update `VirtualSMC` v. 1.2.2 beta:
+		- `SMCSuperIO` supports Embedded Controller sensors for any (atm just one) fan reading in macOS injecting `Intel_EC_V3` value in `ec-device` for `PciRoot(0x0)/Pci(0x1f,0x0)`
+
 - **03-30-2021**
 
 	Initial setup for GitHub repo:
