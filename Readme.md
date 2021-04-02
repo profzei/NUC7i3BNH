@@ -47,7 +47,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - March - 30
+#### 2021 - April - 02
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -84,7 +84,7 @@ Then update your clock via the built-in internet time setting to update the time
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 | Fix for NVMe SSDs |
 | [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.0 | Block unwanted processes |
 | [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.1 | SMC chip emulation |
-| [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.6 | Inject USB ports |
+| [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.7 | Inject USB ports |
 | [VoltageShift](https://github.com/sicreative/VoltageShift) | 1.25 | Undervoltage tool |
 
 ## Credits
@@ -95,5 +95,6 @@ Standing on the shoulders of giants! Based on the works of many great people.
 - [CorpNewt's tools](https://github.com/corpnewt)
 - [OpenWireless project](https://github.com/OpenIntelWireless/itlwm)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
+- [Khronokernel's DarwinDumped repo](https://github.com/khronokernel/DarwinDumped)
 
 And to everyone else who supports and uses my repo.
