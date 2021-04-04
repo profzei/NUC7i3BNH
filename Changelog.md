@@ -1,12 +1,65 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **04-05-2021**
+
+	Update to macOS Catalina 10.5.7 Supplemental Update + Security Update (build 19H524)
+	
+	**Update**
+	- Add [kext] `HibernationFixup` v. 1.3.9
+	
+	**OpenCore**
+	
+	Moving from **Debug** `OpenCore` v. 0.6.7 to **Release** one since system should be stable enough
+	- Updated `config.plist`:
+		- `Misc -> Debug -> AppleDebug` key set to `false` (previous value was `true`)
+		- `Misc -> Debug -> ApplePanic` key set to `false` (previous value was `true`)
+		- `Misc -> Debug -> Target` key set to `3` (previous value was `67`)
+		- Removed in `NVRAM -> boot-args` key `-v keepsysm=1 debug=0x100` (only needed for debugging purpouses)
+	
+	Enabling **GUI** for `OpenCanopy` in `config.plist`:
+		- `Misc -> Boot -> PickerMode` key set to `External` (previous value was `Builtin`)
+		- `Misc -> Boot -> PickerVariant` key set to `Modern` (previous value was `Auto`)
+		
+- **04-03-2021**
+
+	**Update**
+	- Add [kext] `FakePCIID`: atm it's needed for enabling audio over HDMI (it's not a vanilla solution)
+	- Add [kext] `FakePCIID_Intel_HDMI_Audio`: atm it's needed for enabling audio over HDMI (it's not a vanilla solution)
+	
+	**OpenCore**
+	- Update `config.plist`:
+		- Updated `layout-id` to 45 for Audio device (`PciRoot(0x0)/Pci(0x1f,0x3)`)
+		- Proper set-up for supporting `MAT` device:
+			- `Booter/Quirks/EnableWriteUnprotector` set to `false` (previous value was `true`)
+			- `Booter/Quirks/ProvideCustomSlide` set to `false` (previous value was `true`)
+			- `Booter/Quirks/RebuildAppleMemoryMap` set to `true` (previous value was `false`)
+			- `Booter/Quirks/SyncRuntimePermissions` set to `true` (previous value was `false`)
+		- Added `acpi-wake-type` key for USB 3.0 xHCI Controller (`PciRoot(0x0)/Pci(0x14,0x0)`) for supporting wake-up from keyboard (since it's a desktop I'm not very interested in sleep...)
+		- updated config for `PciRoot(0x0)/Pci(0x2,0x0)`:
+			- enabled `enable-hdmi-dividers-fix` property
+			- enabled `framebuffer-con2-enable` property
+			- enabled `framebuffer-con2-has-lspcon` property
+			- enabled `framebuffer-con2-preferred-lspcon-mode` property
+			- enabled `framebuffer-camellia` property
+			- enabled `framebuffer-conX-busid` property
+			- enabled `framebuffer-conX-flags` property
+			- enabled `framebuffer-conX-index` property
+			- enabled `framebuffer-conX-pipe` property
+			- enabled `framebuffer-conX-type` property
+			- enabled `framebuffer-flags` property
+			- enabled `framebuffer-memorycount` property
+			- enabled `framebuffer-mobile` property
+			- enabled `framebuffer-pipecount` property
+			- enabled `framebuffer-portcount` property
+		- fixed layout for my keyboard
+
 - **04-02-2021**
 
 	**Update**
 	- Update `SSDT-RTC0.aml`: enabling native `RTC` device only for macOS
 	- Add `SSDT-INIT.aml` for initialize `HPTE` (disabling `HPET` device) and `OSYS` variables
-	- Add [kext] `IntelMausi` for enabling support for Intel Ethernet (`en2`)
+	- Add [kext] `IntelMausi` v. 1.0.5 for enabling support for Intel Ethernet (`en2`)
 	
 	**OpenCore**
 	- Update `config.plist`:
@@ -40,7 +93,7 @@ English
 - **03-31-2021**
 
 	**Update**
-	- Update `VirtualSMC` v. 1.2.2 beta:
+	- Update [kext] `VirtualSMC` v. 1.2.2 beta:
 		- `SMCSuperIO` supports Embedded Controller sensors for any (atm just one) fan reading in macOS injecting `Intel_EC_V3` value in `ec-device` for `PciRoot(0x0)/Pci(0x1f,0x0)`
 	- Update `SSDT-EC-USBX.aml` for implementing Apple EC device and USBX management (modified version from Dortania's one for Desktop machine)
 	- Update `SSDT-PM.aml` for proper power management (CPU frequency scaling is still missing)

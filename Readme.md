@@ -11,7 +11,7 @@
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on Catalina 10.15.7: for the moment I stick with Catalina since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
+This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
 
 **This repository is for personal purposes**
 
@@ -47,7 +47,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - April - 02
+#### 2021 - April - 05
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -76,11 +76,11 @@ Then update your clock via the built-in internet time setting to update the time
 | [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.1 | Kext/process/framework/library patcher |
 | [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.8 | Handle Graphics card |
 | [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.8 | Handle/fix onboard audio |
-| [CodecCommander](https://github.com/Sniki/EAPD-Codec-Commander/releases) | 2.7.2 | Fix headphone audio switch |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
 | [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.3.9 | Handle hibernate status |
 | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2 | Handle Bluetooth |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 beta| Handle native Wi-Fi card |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 beta | Handle native Wi-Fi card |
+| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 | Handle native Ethernet LAN card |
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 | Fix for NVMe SSDs |
 | [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.0 | Block unwanted processes |
 | [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.1 | SMC chip emulation |
