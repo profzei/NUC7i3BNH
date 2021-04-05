@@ -42,20 +42,22 @@ Mine is **NUC7i3BNH** which is the Core i3 model with a 2.5'' slot for an additi
 
 ### Specifications
 
-| Components          | Details                                                         |
+| NUC Components       | Details                                                         |
 | :--- | :--- |
-| Computer model      | Intel NUC7i3BNH                                                 |
-| Processor           | Intel Core i3-7100U Processor @ 2.4 GHz dual core with 15 W TDP |
-| Memory              | 16 GB DDR4-2133 SO-DIMM @ 1.2 V                                 |
-| M.2 SSD Card        | Lexar Professional NM700 PCIe NVMe 256 GB [LNM700-25RB]         |
-| SATA SSD 2.5" Drive | Crucial M500 240 GB [CT240M500SSD1]                             |
-| Integrated Graphics | Intel(R) HD Graphics 620 GPU                                    |
-| Sound Card          | Realtek ALC283                                                  |
-| LAN Adapter         | Intel Gigabit Ethernet I219 V4
-| Wireless Card       | Intel Wireless-AC 8265 (802.11ac, dual-band, max. 867 Mbps)     |
-| Bluetooth Card      | Intel Bluetooth 8265 (v. 4.2)                                   |
-|  |  |
-| Monitor             | BenQ PD2500Q 2k Display @ 2560 x 1440 (25" @ 16:9)              |
+| Computer model       | Intel NUC7i3BNH                                                 |
+| Processor            | Intel Core i3-7100U Processor @ 2.4 GHz dual core with 15 W TDP |
+| Memory               | 16 GB DDR4-2133 SO-DIMM @ 1.2 V                                 |
+| M.2 SSD Card         | Lexar Professional NM700 PCIe NVMe 256 GB [LNM700-25RB]         |
+| SATA SSD 2.5" Drive  | Crucial M500 240 GB [CT240M500SSD1]                             |
+| Integrated Graphics  | Intel(R) HD Graphics 620 GPU                                    |
+| Sound Card           | Realtek ALC283                                                  |
+| LAN Adapter          | Intel Gigabit Ethernet I219 V4
+| Wireless Card        | Intel Wireless-AC 8265 (802.11ac, dual-band, max. 867 Mbps)     |
+| Bluetooth Card       | Intel Bluetooth 8265 (v. 4.2)                                   |
+| **Other Components** |  |
+| Monitor              | BenQ PD2500Q 2k Display @ 2560 x 1440 (25" @ 16:9)              |
+| Keyboard             | HP Keyboard K1500                                               |
+| Mouse                | Microsoft Basic Optical Mouse 2.0                               |
 
 Other hardware specifications:
 - Four USB 3.0 ports (2 on the front, 2 on the rear)
@@ -114,7 +116,7 @@ WIP...
 <img src="Wiki/Images/Specifications.png" width="100%" alt="" />
 </p>
 
-The active and working USB ports are listed in the following table, while all unused or non-referenced USB ports are acordingly removed.
+The **active and working USB ports are listed** in the following table, while **all unused or non-referenced USB ports are accordingly removed**.
 (WIP: all ports are defined in `USBPorts.kext`)
 
 | USB 2.0 Port Name | USB 3.0 Port Name | Hardware Location       | Controller     |
