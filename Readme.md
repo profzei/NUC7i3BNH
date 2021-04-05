@@ -77,7 +77,7 @@ Other hardware specifications:
 | **GPU** - **OpenCL** Performance **4514** | **GPU** - **Metal** Performance **4253** |
 
 <p align="center">
-<img src="Wiki/Images/Lexar_AmorphousDiskMark.png" width="100%" alt="" />
+<img src="Wiki/Images/Lexar_AmorphousDiskMark.png" width="70%" alt="" />
 </p>
 
 </details>
@@ -107,6 +107,24 @@ See [**Current status**](Changelog.md)
 
 ## Status
 WIP...
+
+## USB Port Mapping on NUC chassis
+
+<p align="center">
+<img src="Wiki/Images/Specifications.png" width="100%" alt="" />
+</p>
+
+The active and working USB ports are listed in the following table, while all unused or non-referenced USB ports are acordingly removed.
+(WIP: all ports are defined in `USBPorts.kext`)
+
+| USB 2.0 Port Name | USB 3.0 Port Name | Hardware Location       | Controller     |
+| ----------------- | ----------------- | ----------------------- | -------------- |
+| HS01              | SS01              | Front RIGHT socket      | Primary XHCI   |
+| HS02              | SS02              | Front LEFT socket       | Primary XHCI   |
+| HS03              | SS03              | Rear BOTTOM socket      | Primary XHCI   |
+| HS04              | SS04              | Rear TOP socket         | Primary XHCI   |
+| HS08              | n/a               | Internal Bluetooth port | Primary XHCI   |
+| HS01              | SS01              | Rear USB-C socket       | Secondary XHCI |
 
 ## Optional Settings
 <details>  
