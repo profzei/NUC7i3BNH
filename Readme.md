@@ -1,6 +1,6 @@
 # macOS  on Intel NUC7i3BNH
 <p align="center">
-<img src="Wiki/Images/homepage_nuc7i3bnh.png" width="70%" alt="NUC7i3BNH" />
+<img src="Wiki/Images/homepage_nuc7i3bnh.png" width="50%" alt="NUC7i3BNH" />
 </p>
 <p align="center">
 <a href="https://downloadcenter.intel.com/it/product/95066/Kit-Intel-NUC-NUC7i3BNH" target="_blank"><img src="https://img.shields.io/badge/BIOS-BNKBL357-red.svg" /></a>
@@ -14,7 +14,7 @@
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
+This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina (Supplemental + Security Update - Build 19H524) since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
 
 **This repository is for personal purposes**
 
@@ -54,7 +54,7 @@ Mine is **NUC7i3BNH** which is the Core i3 model with a 2.5'' slot for an additi
 | LAN Adapter         | Intel Gigabit Ethernet I219 V4
 | Wireless Card       | Intel Wireless-AC 8265 (802.11ac, dual-band, max. 867 Mbps)     |
 | Bluetooth Card      | Intel Bluetooth 8265 (v. 4.2)                                   |
-| :--- | :--- |
+|  |  |
 | Monitor             | BenQ PD2500Q 2k Display @ 2560 x 1440 (25" @ 16:9)              |
 
 Other hardware specifications:
@@ -68,6 +68,19 @@ Other hardware specifications:
 **Note**: NUC7i3BNH (i.e. the i3 model for NUC7) does not support ThunderBolt over the Type-C connector, unlike the more expensive models in the lineup.
 
 **Device Firmware** BIOS version: `BNKBL357`
+
+<details>
+<summary><strong>Benchmarks</strong></summary>
+
+| ![](Wiki/Images/HD620_OpenCL.png)  | ![](Wiki/Images/HD620_Metal.png) |
+|:---:|:---:|
+| **GPU** - **OpenCL** Performance **4514** | **GPU** - **Metal** Performance **4253** |
+
+<p align="center">
+<img src="Wiki/Images/Lexar_AmorphousDiskMark.png" width="100%" alt="" />
+</p>
+
+</details>
 
 ## BIOS Settings
 
