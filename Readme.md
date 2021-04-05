@@ -77,7 +77,7 @@ Other hardware specifications:
 | **GPU** - **OpenCL** Performance **4514** | **GPU** - **Metal** Performance **4253** |
 
 <p align="center">
-<img src="Wiki/Images/Lexar_AmorphousDiskMark.png" width="70%" alt="" />
+<img src="Wiki/Images/Lexar_AmorphousDiskMark.png" width="50%" alt="" />
 </p>
 
 </details>
