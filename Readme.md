@@ -1,6 +1,6 @@
 # macOS  on Intel NUC7i3BNH
 <p align="center">
-<img src="Wiki/Images/homepage_nuc7i3bnh.png" alt="NUC7i3BNH" />
+<img src="Wiki/Images/homepage_nuc7i3bnh.png" width="70%" alt="NUC7i3BNH" />
 </p>
 <p align="center">
 <a href="https://downloadcenter.intel.com/it/product/95066/Kit-Intel-NUC-NUC7i3BNH" target="_blank"><img src="https://img.shields.io/badge/BIOS-BNKBL357-red.svg" /></a>
@@ -18,6 +18,10 @@ This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick wit
 
 **This repository is for personal purposes**
 
+<p align="center">
+<img src="Wiki/Images/AboutThisMac.png" width="70%" alt="About this Mac" />
+</p>
+
 ### DISCLAIMER
 
 - Read the entire README before you start.
@@ -32,12 +36,38 @@ If you find my work useful, please consider **donating via PayPal**. [![donate](
 
 ## Overview
 
-What is an Intel NUC? It is a tiny barebone PC size of a few CD cases piled on top of each other.
+What is an **Intel NUC**? It is a tiny barebone PC size of a few CD cases piled on top of each other.
 
-Mine is NUC7i3BNH which is the Core i3 model with a 2.5'' slot for an additional SATA drive coupled with a BenQ PD2500Q which is a 2k 25" calibrated monitor.
+Mine is **NUC7i3BNH** which is the Core i3 model with a 2.5'' slot for an additional SATA drive coupled with a **BenQ PD2500Q** which is a **2k 25" calibrated monitor**.
 
 ### Specifications
 
+| Components          | Details                                                         |
+| :--- | :--- |
+| Computer model      | Intel NUC7i3BNH                                                 |
+| Processor           | Intel Core i3-7100U Processor @ 2.4 GHz dual core with 15 W TDP |
+| Memory              | 16 GB DDR4-2133 SO-DIMM @ 1.2 V                                 |
+| M.2 SSD Card        | Lexar Professional NM700 PCIe NVMe 256 GB [LNM700-25RB]         |
+| SATA SSD 2.5" Drive | Crucial M500 240 GB [CT240M500SSD1]                             |
+| Integrated Graphics | Intel(R) HD Graphics 620 GPU                                    |
+| Sound Card          | Realtek ALC283                                                  |
+| LAN Adapter         | Intel Gigabit Ethernet I219 V4
+| Wireless Card       | Intel Wireless-AC 8265 (802.11ac, dual-band, max. 867 Mbps)     |
+| Bluetooth Card      | Intel Bluetooth 8265 (v. 4.2)                                   |
+| :--- | :--- |
+| Monitor             | BenQ PD2500Q 2k Display @ 2560 x 1440 (25" @ 16:9)              |
+
+Other hardware specifications:
+- Four USB 3.0 ports (2 on the front, 2 on the rear)
+- One USB type-C Port (which offers USB 3.1 gen2) with DisplayPort 1.2 functionality
+- One normal full-size HDMI 2.0a port
+- Micro SD card reader (support SDXC cards and UHS-I)
+- Dual-array microphones on the front panel
+- Infrared sensor and 3.5 mm audio jack
+
+**Note**: NUC7i3BNH (i.e. the i3 model for NUC7) does not support ThunderBolt over the Type-C connector, unlike the more expensive models in the lineup.
+
+**Device Firmware** BIOS version: `BNKBL357`
 
 ## BIOS Settings
 
