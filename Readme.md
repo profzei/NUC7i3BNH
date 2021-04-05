@@ -1,5 +1,8 @@
 # macOS  on Intel NUC7i3BNH
 <p align="center">
+<img src="Wiki/Images/homepage_nuc7i3bnh.png" alt="NUC7i3BNH" />
+</p>
+<p align="center">
 <a href="https://downloadcenter.intel.com/it/product/95066/Kit-Intel-NUC-NUC7i3BNH" target="_blank"><img src="https://img.shields.io/badge/BIOS-BNKBL357-red.svg" /></a>
 <a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-purple.svg" /></a>
 <a href="https://github.com/profzei/NUC7i3BNH/releases" target="_blank"><img src="https://img.shields.io/badge/Download-Releases-blue.svg" /></a>
@@ -26,6 +29,15 @@ This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick wit
 If you find this bootloader configuration useful, consider **giving** it **a star** to make it more visible.
 
 If you find my work useful, please consider **donating via PayPal**. [![donate](https://img.shields.io/badge/-buy%20me%20a%20coffee-orange)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TSJHK3C2BSQN6&currency_code=EUR)
+
+## Overview
+
+What is an Intel NUC? It is a tiny barebone PC size of a few CD cases piled on top of each other.
+
+Mine is NUC7i3BNH which is the Core i3 model with a 2.5'' slot for an additional SATA drive coupled with a BenQ PD2500Q which is a 2k 25" calibrated monitor.
+
+### Specifications
+
 
 ## BIOS Settings
 
@@ -54,6 +66,27 @@ See [**Current status**](Changelog.md)
 WIP...
 
 ## Optional Settings
+<details>  
+<summary><strong>Increase Launchpad icons number</strong></summary>
+
+By default, the **Launchpad** shows the icons in 5×7 format (i.e. rows x columns).
+
+Since BenQ PD2500Q is a 2k 25'' monitor, type in **Terminal** the following commands:
+```
+defaults write com.apple.dock springboard-rows -int 7
+defaults write com.apple.dock springboard-columns -int 10;killall Dock
+```
+Relaunch the Launchpad to see the icons are changed now.
+
+Finally you can revert to the default setting with the following commands:
+```
+defaults delete com.apple.dock springboard-rows
+defaults delete com.apple.dock springboard-columns
+defaults write com.apple.dock ResetLaunchPad -bool TRUE;killall Dock
+```
+(**Warning**: the last command also will remove any custom folders you have created)
+</details>
+
 <details>  
 <summary><strong>Dual Booting: fix Windows time</strong></summary>
 
