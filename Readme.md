@@ -104,7 +104,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - April - 05
+#### 2021 - April - 06
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -169,17 +169,17 @@ Then update your clock via the built-in internet time setting to update the time
 | :--- | :--- | :--- |
 | MacOS | 10.5.7 | |
 | [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.7 | Default Bootloader|
-| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.1 | Kext/process/framework/library patcher |
-| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.8 | Handle Graphics card |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.8 | Handle/fix onboard audio |
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.2 | Kext/process/framework/library patcher |
+| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 | Handle Graphics card |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.9 | Handle/fix onboard audio |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
-| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.3.9 | Handle hibernate status |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.0 | Handle hibernate status |
 | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2 | Handle Bluetooth |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 beta | Handle native Wi-Fi card |
 | [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 | Handle native Ethernet LAN card |
-| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 | Fix for NVMe SSDs |
+| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.6 | Fix for NVMe SSDs |
 | [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.0 | Block unwanted processes |
-| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.1 | SMC chip emulation |
+| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.2 | SMC chip emulation |
 | [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.7 | Inject USB ports |
 | [VoltageShift](https://github.com/sicreative/VoltageShift) | 1.25 | Undervoltage tool |
 

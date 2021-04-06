@@ -1,6 +1,21 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **04-06-2021**
+
+	**Update**
+	- Update [kext] `AppleALC` v. 1.5.9
+	- Update [kext] `HibernationFixup` v. 1.4.0
+	- Update [kext] `Lilu` v. 1.5.2
+	- Update [kext] `NVMeFix` v. 1.0.6
+	- Update [kext] `VirtualSMC` + plugins v. 1.2.2
+	- Update [kext] `WhateverGreen` v. 1.4.9
+
+	**Debug**
+	- Update `MaciASL` v. 1.6.0
+	
+	Since `SMCSuperIO.kext` from official v. 1.2.2 release seems to be [bugged](https://github.com/osy/HaC-Mini/issues/553#issuecomment-814170132) reporting always `0 rpm` for `FAN` sensor, it is replaced with old version taken from previous working beta release
+
 - **04-05-2021**
 
 	Update to macOS Catalina 10.5.7 Supplemental Update + Security Update (build 19H524)
