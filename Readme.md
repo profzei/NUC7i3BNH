@@ -104,7 +104,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - April - 06
+#### 2021 - April - 09
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -117,7 +117,7 @@ WIP...
 </p>
 
 The **active and working USB ports are listed** in the following table, while **all unused or non-referenced USB ports are accordingly removed**.
-(WIP: all ports are defined in `USBPorts.kext`)
+(WIP: Secondary XHCI + all ports are defined in `USBPorts.kext`)
 
 | USB 2.0 Port Name | USB 3.0 Port Name | Hardware Location       | Controller     |
 | ----------------- | ----------------- | ----------------------- | -------------- |

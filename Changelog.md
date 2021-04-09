@@ -1,6 +1,34 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **04-09-2021**
+
+	**Update**
+	- Update [kext] `VirtualSMC` + plugins v. 1.2.3 beta (commit 1cb8fd1): fixed fan speed reading
+	- Update `SSDT-PM.aml`:
+		- Modified structure for `PMCR` device using as Hardware ID `APP9876` as found on iMac18,3
+		- Assigned ACPI device name `THRM` to undefined PCI device `0x00140002` (Intel Corporation Thermal Subsystem) in `IODeviceTree` list for enhancing compatibility with thermal zone
+	- Update `SSDT-VDEV.aml`:
+		- Added `BUS1` device for `SMBUS` Controller (more native or Apple-like approach)
+		- Assigned ACPI device name `PGMM` to undefined PCI device `0x00080000` (Intel Corporation Core Processor Gaussian Mixture Model) in `IODeviceTree` list for enhancing compatibility
+	
+	**OpenCore**
+	- Update `config.plist`:
+		- Added `compatibility` key for `PciRoot(0x0)/Pci(0x14,0x2)` with value `pci8086,9d21` resulting to vanilla detection for thermal zone (pair with `SSDT-PM.aml` update)
+		
+- **04-08-2021**
+
+	**Update**
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 1.3.0 beta (commit 68bc77c)
+	- Update [kext] stripped `IntelBluetoothFirmware` v. 1.1.2 (commit 16bc609)
+	- Update `SSDT-EC-USBX.aml`: original `H_EC` device is disabled (through `_STA` method) for not loading `AppleACPIEC.kext`
+	- Update `SSDT-PM.aml`: changed returning value for `PMCR._STA` method from `0x0F` to `0x0B`
+	- Add `SSDT-FWHD.aml` for enabling Intel 82802 Firmware Hub Device
+	
+	**OpenCore**
+	- Update `config.plist`:
+		- Added `H_EC._STA,0,N to H_EC.XSTA,0,N` binary patch (pair with `SSDT-EC-USBX.aml`)
+	
 - **04-06-2021**
 
 	**Update**
