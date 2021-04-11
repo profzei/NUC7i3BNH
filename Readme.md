@@ -104,7 +104,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - April - 09
+#### 2021 - April - 11
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -116,8 +116,7 @@ WIP...
 <img src="Wiki/Images/Specifications.png" width="100%" alt="" />
 </p>
 
-The **active and working USB ports are listed** in the following table, while **all unused or non-referenced USB ports are accordingly removed**.
-(WIP: Secondary XHCI + all ports are defined in `USBPorts.kext`)
+The **active and working USB ports are listed** in the following table, while **all unused or non-referenced USB ports are accordingly removed**:
 
 | USB 2.0 Port Name | USB 3.0 Port Name | Hardware Location       | Controller     |
 | ----------------- | ----------------- | ----------------------- | -------------- |
@@ -126,7 +125,17 @@ The **active and working USB ports are listed** in the following table, while **
 | HS03              | SS03              | Rear BOTTOM socket      | Primary XHCI   |
 | HS04              | SS04              | Rear TOP socket         | Primary XHCI   |
 | HS08              | n/a               | Internal Bluetooth port | Primary XHCI   |
-| HS01              | SS01              | Rear USB-C socket       | Secondary XHCI |
+| n/a               | SS01              | Rear USB-C socket       | Secondary XHCI |
+
+- Primary `XHCI`: `8086:9f2f`
+- Secondary `XHCI`: `8086:15db`(recognized as a subsystem for Thunderbolt Controller `JHL6340`)
+
+Secondary `XHCI` interface enables the unique **USB type-C Port** (which offers USB 3.1 gen2) with DisplayPort 1.2 functionality present on NUC7i3BNH. Why is this aspect so important for my config?
+- Background:
+	- a known issue ([Reddit & Mac mini 2020 M1](https://www.reddit.com/r/mac/comments/lc0tvu/mac_mini_m1_2020_and_benq_pd2500q_display/), [Reddit & Mac mini 2018](https://www.reddit.com/r/macmini/comments/gld233/macmini_2020_and_benq_pd2500q_display_vertical/), [MacRumors & Mac mini 2020](https://forums.macrumors.com/threads/mac-mini-2020-benqq-pd2500q-green-line-on-the-side.2236349/)) between my monitor BenQ PD2500Q and Mac is a vertical line on the right side of the display at all resolutions except 1920x1080 HD one;
+	- this issue is related to HDMI port used for connecting display to NUC7i3BNH;
+	- a such issue is also documented for Mac mini 2018 or 2020 machines using HDMI ports;
+- Solution: using a USB type-C (from NUC7i3BNH) to HDMI cable adapter fixes the issue for all BenQ PD2500Q available resolutions even at highest QHD one. 
 
 ## Optional Settings
 <details>  

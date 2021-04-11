@@ -1,6 +1,13 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **04-11-2021**
+
+	**Update**
+	- Update `SSDT-INIT.aml` for enabling with native approach secondary `XHCI` interface with USB type-C port
+	
+	Totally fixed issue described [here](https://github.com/profzei/NUC7i3BNH#usb-port-mapping-on-nuc-chassis) for my QHD monitor **BenQ PD2500Q** (resolution: 2048x1152 hiDPI for optimal readability)
+
 - **04-09-2021**
 
 	**Update**
