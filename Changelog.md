@@ -1,6 +1,15 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **04-18-2021**
+
+	**Update**
+	- Update `SSDT-UIAC.aml`: proper support for `8086:15db` (secondary) USB controller (`SSS1` port)
+	
+	**OpenCore**
+	- Update `config.plist`:
+		- Added `-igfxtypec` boot parameter to force DP connectivity for Type-C platforms
+
 - **04-11-2021**
 
 	**Update**
