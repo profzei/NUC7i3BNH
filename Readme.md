@@ -104,7 +104,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - April - 18
+#### 2021 - April - 21
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -157,6 +157,70 @@ defaults delete com.apple.dock springboard-columns
 defaults write com.apple.dock ResetLaunchPad -bool TRUE;killall Dock
 ```
 (**Warning**: the last command also will remove any custom folders you have created)
+</details>
+
+<details>  
+<summary><strong>Make macOS zsh Terminal colorful</strong></summary>
+
+The **default macOS Terminal** looks very lame since it lacks in visibility: things should be colorful like Ubuntu. 
+In the following steps, a proper solution for that is given **without installing any custom theme**:
+- Choose any black theme first as the color combination of my snippet is dark theme friendly
+- Open **Terminal** and type:
+```
+cd
+touch zshrc
+open zshrc
+```
+- Append the following code in the file:
+```
+export CLICOLOR=1
+export LSCOLORS=GxBxCxDxCxegedabagaced
+```
+- Save the file and quit your default editor
+- In **Terminal** type:
+```
+mv zshrc .zshrc
+```
+- Quit **Terminal** (`cmd + q`)
+- Now open a new **Terminal** window and the changes will be reflected
+
+#### How did the customization worked?
+
+By setting `CLICOLOR=1` you are enabling colors
+
+`LSCOLORS` is the variable where you will define which file should display what color: it is used to color the directory and file list. 
+It provides you 11 positions, each with `FB` (foregroundColor backgroundColor) combination. Thus it contains 22 characters. Below is the details of which position means what:
+1. directory
+2. symbolic link
+3. socket
+4. pipe
+5. executable
+6. block special
+7. character special
+8. executable with setuid bit set
+9. executable with setgid bit set
+10. directory writable to others, with sticky bit
+11. directory writable to others, without sticky
+
+The colors for each position are placed as `FB` format; below is the list which color means what:
+- a: black
+- b: red
+- c: green
+- d: brown
+- e: blue
+- f: magenta
+- g: cyan
+- h: light grey
+- A: bold black, usually shows up as dark grey
+- B: bold red
+- C: bold green
+- D: bold brown, usually shows up as yellow
+- E: bold blue
+- F: bold magenta
+- G: bold cyan
+- H: bold light grey; looks like bright white
+- x: default foreground or background
+The colors mentioned above are ANSI colors, but according to the version of your macOS or terminal, they may differ a little.
 </details>
 
 <details>  
