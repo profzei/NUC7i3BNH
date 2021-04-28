@@ -1,6 +1,18 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **04-28-2021**
+
+	Update to macOS Catalina 10.5.7 Security Update 2021-002 (build 19H1030)
+	Update to **Safari** v. 14.1
+
+	**OpenCore**
+	- Update `config.plist`:
+		- `Misc -> Debug -> ApplePanic` key set to `true` (previous value was `false`)
+		- Removed `-igfxtypec` boot parameter since it determines slow shutdown/reboot
+	
+	Added a new section in `Readme.md` for making macOS zsh Terminal colorful (therefore improving readability in Terminal.app)
+	
 - **04-18-2021**
 
 	**Update**

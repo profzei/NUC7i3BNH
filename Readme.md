@@ -14,7 +14,7 @@
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina (Supplemental + Security Update - Build 19H524) since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
+This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina (Supplemental + Security Update - Build 19H1030) since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
 
 **This repository is for personal purposes**
 
@@ -104,7 +104,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - April - 21
+#### 2021 - April - 28
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -249,7 +249,7 @@ Then update your clock via the built-in internet time setting to update the time
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
 | [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.0 | Handle hibernate status |
 | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2 | Handle Bluetooth |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 beta | Handle native Wi-Fi card |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 | Handle native Wi-Fi card |
 | [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 | Handle native Ethernet LAN card |
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.6 | Fix for NVMe SSDs |
 | [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.0 | Block unwanted processes |
