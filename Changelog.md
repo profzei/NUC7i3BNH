@@ -1,10 +1,15 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **05-05-2021**
+
+	Update **Safari**  Security Patch for WebKit
+
 - **04-28-2021**
 
 	Update to macOS Catalina 10.5.7 Security Update 2021-002 (build 19H1030)
-	Update to **Safari** v. 14.1
+	
+	Update **Safari** v. 14.1
 
 	**OpenCore**
 	- Update `config.plist`:
