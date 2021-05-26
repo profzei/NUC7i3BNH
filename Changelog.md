@@ -1,6 +1,10 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **05-26-2021**
+
+	Update **Safari** v. 14.1.1
+
 - **05-05-2021**
 
 	Update **Safari**  Security Patch for WebKit
