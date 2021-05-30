@@ -1,6 +1,31 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **05-30-2021**
+
+	**Update**
+	- Update `OpenCore` v. 0.6.9
+	- Update [kext] `AppleALC` v. 1.6.0
+	- Update [kext] `IntelMausi` v. 1.0.6
+    - Update [kext] `Lilu` v. 1.5.3
+    - Update [kext] `NVMeFix` v. 1.0.7
+    - Update [kext] `RestrictEvents` v. 1.0.1
+    - Update [kext] `Sinetek-rtsx` v. 9.0
+    - Update [kext] `VirtualSMC` + plugins v. 1.2.3
+    - Update [kext] stripped `AirportItlwm_Catalina` v. 2.0.0 beta (commit 604a33b)
+    - Update [kext] stripped `IntelBluetoothFirmware` v. 1.1.3 beta (commit ed27c85)
+
+    **OpenCore**
+    - Update `config.plist` to support `OpenCore` v. 0.6.9
+
+- **05-27-2021**
+
+	**Update**
+	- Update `SSDT-VDEV.aml`: removed `PGMM` device for undefined PCI device `0x00080000` (Intel Corporation Core Processor Gaussian Mixture Model)
+	- Add `SSDT-IGMM.aml`: 
+		- assigned ACPI device name `IGMM` to undefined PCI device `0x00080000` (Intel Corporation Core Processor Gaussian Mixture Model)
+		- now `PCI0.IGMM@8` is properly populated in IORegistryExplorer app
+		
 - **05-26-2021**
 
 	Update **Safari** v. 14.1.1

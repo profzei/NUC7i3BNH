@@ -10,7 +10,7 @@
 </p>
 
 
-#### This repo is currently compatible with macOS Catalina and OpenCore 0.6.7
+#### This repo is currently compatible with macOS Catalina and OpenCore 0.6.9
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
@@ -89,7 +89,6 @@ Other hardware specifications:
  Update to the [latest BIOS version](https://downloadcenter.intel.com/it/product/95066/Kit-Intel-NUC-NUC7i3BNH), then load BIOS **Defaults** and finally in the **Advanced** submenu change the following settings:
 - `Devices -> USB -> Port Device Charging Mode: Off`
 - `Devices -> USB -> USB Legacy -> Disabled`
-- `Security -> Thunderbolt Security Level: Legacy Mode`
 - `Power -> Wake on LAN from S4/S5: Stay Off`
 - `Boot -> Boot Configuration -> Network Boot: Disable`
 - `Boot -> Secure Boot -> Disable`
@@ -104,7 +103,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - May - 05
+#### 2021 - May - 30
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -242,18 +241,19 @@ Then update your clock via the built-in internet time setting to update the time
 | Item | Version | Remark |
 | :--- | :--- | :--- |
 | MacOS | 10.5.7 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.7 | Default Bootloader|
-| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.2 | Kext/process/framework/library patcher |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.9 | Default Bootloader|
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | Kext/process/framework/library patcher |
 | [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 | Handle Graphics card |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.9 | Handle/fix onboard audio |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 | Handle/fix onboard audio |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
 | [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.0 | Handle hibernate status |
-| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2 | Handle Bluetooth |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 | Handle native Wi-Fi card |
-| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 | Handle native Ethernet LAN card |
-| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.6 | Fix for NVMe SSDs |
-| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.0 | Block unwanted processes |
-| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.2 | SMC chip emulation |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.3 beta | Handle Bluetooth |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.0.0 beta | Handle native Wi-Fi card |
+| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.6 | Handle native Ethernet LAN card |
+| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.7 | Fix for NVMe SSDs |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.1 | Block unwanted processes |
+| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.3 | SMC chip emulation |
+| [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx/releases) | 9.0 | Micro SD card reader driver |
 | [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.7 | Inject USB ports |
 | [VoltageShift](https://github.com/sicreative/VoltageShift) | 1.25 | Undervoltage tool |
 
