@@ -82,6 +82,11 @@ Other hardware specifications:
 <img src="Wiki/Images/Lexar_AmorphousDiskMark.png" width="50%" alt="" />
 </p>
 
+| ![](Wiki/Images/CPU_7100U.png) |
+| :---:|
+| **Single-Core** Score **595** ~~~~~~~~~~~~~~~~~~~~~~ **Multi-Core** Score **1384** |
+
+
 </details>
 
 ## BIOS Settings
