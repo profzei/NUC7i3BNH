@@ -1,6 +1,28 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **06-25-2021**
+
+	Apple **Magic Mouse 2** is working wonderfully
+
+	**Update**
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.0.0 beta (commit 93bf81f)
+	- Update [kext] stripped `IntelBluetoothFirmware` v. 2.0.0 beta (commit beb5224)
+	- Update [kext] stripped `IntelBluetoothInjector` v. 2.0.0 beta (commit beb5224)
+
+- **05-31-2021**
+
+	**Update**
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.0.0 beta (commit 4590cd1)
+	- Update [kext] stripped `IntelBluetoothFirmware` v. 1.1.3 beta (commit ed27c85)
+	- Update [kext] stripped `IntelBluetoothInjector` v. 1.1.3 beta (commit ed27c85)
+	- Update `SSDT-PM.aml`: Implemented two different sliders for Display and Device sleeping
+	- Add `SSDT-NMVE.aml`
+
+	**OpenCore**
+	- Update [driver] `HfsPlus.efi` from latest fw (IM201 and IM161)
+	- Update `config.plist`: Improved PCI Devices information coherence
+
 - **05-30-2021**
 
 	**Update**
