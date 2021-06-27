@@ -1,6 +1,12 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **06-27-2021**
+
+	**Update**
+	- Revert back to [kext] stripped `IntelBluetoothFirmware` v. 1.1.3 stable (commit 562de1c): Magic Mouse 2 showed some lags with v. 2.0.0 beta (commit beb5224)
+	- Revert back to [kext] stripped `IntelBluetoothInjector` v. 1.1.3 stable (commit 562de1c)
+
 - **06-25-2021**
 
 	Apple **Magic Mouse 2** is working wonderfully
