@@ -57,7 +57,7 @@ Mine is **NUC7i3BNH** which is the Core i3 model with a 2.5'' slot for an additi
 | **Other Components** |  |
 | Monitor              | BenQ PD2500Q 2k Display @ 2560 x 1440 (25" @ 16:9)              |
 | Keyboard             | HP Keyboard K1500                                               |
-| Mouse                | Microsoft Basic Optical Mouse 2.0                               |
+| Mouse                | Apple Magic Mouse 2                                             |
 
 Other hardware specifications:
 - Four USB 3.0 ports (2 on the front, 2 on the rear)
@@ -108,7 +108,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - June - 27
+#### 2021 - July - 04
 See [**Current status**](Changelog.md)
 
 ## Status
