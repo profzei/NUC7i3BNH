@@ -1,6 +1,13 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **08-21-2021**
+
+	**Update**
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.0.0 beta (commit 6bf409c)
+	- Update [kext] stripped `IntelBluetoothFirmware` v. 2.0.0 beta (commit dbe8fcc)
+	- Update [kext] stripped `IntelBluetoothInjector` v. 2.0.0 beta (commit dbe8fcc)
+
 - **06-27-2021**
 
 	**Update**
