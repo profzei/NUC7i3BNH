@@ -18,6 +18,8 @@ English
 	**OpenCore**
 	- Update `config.plist` to support `OpenCore` v. 0.7.3
 
+	Update to **macOS Catalina 10.15.7 (19H1323)** latest Security Update
+
 - **08-21-2021**
 
 	**Update**

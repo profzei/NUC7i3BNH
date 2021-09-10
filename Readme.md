@@ -14,7 +14,7 @@
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina (Supplemental + Security Update - Build 19H1030) since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
+This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina (Supplemental + Security Update - Build 19H1323) since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
 
 **This repository is for personal purposes**
 
