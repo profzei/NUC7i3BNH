@@ -1,10 +1,27 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **09-10-2021**
+
+	**Update**
+	- Update `OpenCore` v. 0.7.3
+	- Update [kext] `AppleALC` v. 1.6.4
+	- Update [kext] `Lilu` v. 1.5.6
+    - Update [kext] `HibernationFixup` v. 1.4.3
+    - Update [kext] `RestrictEvents` v. 1.0.4
+    - Update [kext] `VirtualSMC` + plugins v. 1.2.3
+	- Update [kext] `WhateverGreen` v. 1.5.3
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.1.0 beta (commit 1e857b9)
+	- Update [kext] stripped `IntelBluetoothFirmware` v. 2.0.0 beta (commit 06f9d25)
+	- Update [kext] stripped `IntelBluetoothInjector` v. 2.0.0 beta (commit 06f9d25)
+
+	**OpenCore**
+	- Update `config.plist` to support `OpenCore` v. 0.7.3
+
 - **08-21-2021**
 
 	**Update**
-	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.0.0 beta (commit 6bf409c)
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.1.0 beta (commit 6bf409c)
 	- Update [kext] stripped `IntelBluetoothFirmware` v. 2.0.0 beta (commit dbe8fcc)
 	- Update [kext] stripped `IntelBluetoothInjector` v. 2.0.0 beta (commit dbe8fcc)
 

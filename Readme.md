@@ -10,7 +10,7 @@
 </p>
 
 
-#### This repo is currently compatible with macOS Catalina and OpenCore 0.6.9
+#### This repo is currently compatible with macOS Catalina and OpenCore 0.7.3
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
@@ -108,7 +108,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2021 - July - 04
+#### 2021 - September - 10
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -246,18 +246,18 @@ Then update your clock via the built-in internet time setting to update the time
 | Item | Version | Remark |
 | :--- | :--- | :--- |
 | MacOS | 10.5.7 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.9 | Default Bootloader|
-| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | Kext/process/framework/library patcher |
-| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 | Handle Graphics card |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 | Handle/fix onboard audio |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.3 | Default Bootloader|
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.6 | Kext/process/framework/library patcher |
+| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.3 | Handle Graphics card |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.4 | Handle/fix onboard audio |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
-| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.0 | Handle hibernate status |
-| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.3 beta | Handle Bluetooth |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.0.0 beta | Handle native Wi-Fi card |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.3 | Handle hibernate status |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.0.0 beta | Handle Bluetooth |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.1.0 beta | Handle native Wi-Fi card |
 | [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.6 | Handle native Ethernet LAN card |
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.7 | Fix for NVMe SSDs |
-| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.1 | Block unwanted processes |
-| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.3 | SMC chip emulation |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.4 | Block unwanted processes |
+| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.7 | SMC chip emulation |
 | [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx/releases) | 9.0 | Micro SD card reader driver |
 | [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.7 | Inject USB ports |
 | [VoltageShift](https://github.com/sicreative/VoltageShift) | 1.25 | Undervoltage tool |
