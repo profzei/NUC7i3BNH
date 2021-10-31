@@ -1,6 +1,17 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **10-31-2021**
+
+	Installed **Security Update 2021-007** for macOS Catalina 10.15.7
+
+	**Update**
+	- Update [kext] stripped `AirportItlwm_Catalina` v. 2.1.0 beta (commit 3aab4a6)
+	- Update [kext] stripped `IntelBluetoothFirmware` v. 2.0.1
+	- Update [kext] stripped `IntelBluetoothInjector` v. 2.0.1
+
+	Update **Safari** v. 15.1
+
 - **09-10-2021**
 
 	**Update**
