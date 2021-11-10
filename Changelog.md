@@ -1,6 +1,13 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **11-10-2021**
+
+    **Update**
+    - Update [kext] stripped `AirportItlwm_Catalina` v. 2.1.0 beta (commit 576b9e1): `iwm` support for LDPC in 11n/11ac mode and better Bluetooth/WiFi coex
+    - Update [kext] stripped `IntelBluetoothFirmware` v. 2.1.0 beta (commit a9217e8): updated firmware for Intel Bluetooth 8265 (Build `REL1221` Release version `22.50.0.4`)
+    - Update [kext] stripped `IntelBluetoothInjector` v. 2.1.0 beta (commit a9217e8): updated firmware for Intel Bluetooth 8265 (Build `REL1221` Release version `22.50.0.4`)
+
 - **10-31-2021**
 
 	Installed **Security Update 2021-007** for macOS Catalina 10.15.7
