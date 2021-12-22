@@ -1,6 +1,10 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **12-22-2021**
+
+	Updated BIOS to BNKBL357.86A.0085.2021.0901.1844
+
 - **11-10-2021**
 
     **Update**
