@@ -1,6 +1,30 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **09-11-2022**
+
+	Update to **macOS Big Sur 11.6.8 (20G730)**
+
+	Modified `SMBIOS` to `Macmini8,1`
+
+	**Update**
+	- Update `OpenCore` v. 0.8.4
+    - Update [kext] `AppleALC` v. 1.7.5
+    - Update [kext] `CPUFriend` v. 1.2.6
+    - Update [kext] `HibernationFixup` v. 1.4.6
+    - Update [kext] `IntelMausi` v. 1.0.7
+    - Update [kext] `Lilu` v. 1.6.2
+    - Update [kext] `NVMeFix` v. 1.1.0
+    - Update [kext] `RestrictEvents` v. 1.0.8
+    - Update [kext] `VirtualSMC` + plugins v. 1.3.0
+    - Update [kext] `VoodooPS2Controller` v. 2.2.9
+    - Update [kext] `WhateverGreen` v. 1.6.1
+    - Update [kext] stripped `AirportItlwm_Big_Sur` v. 2.2.0 beta (commit bb86d9f)
+    - Update [kext] stripped `AirportItlwm_Catalina` v. 2.2.0 beta (commit bb86d9f)
+
+	**OpenCore**
+	- Update `config.plist` to support `OpenCore` v. 0.8.4
+
 - **02-16-2022**
 
 	Updated to **macOS Catalina 10.15.7 (19H1715)** latest Security Update

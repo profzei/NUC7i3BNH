@@ -10,11 +10,11 @@
 </p>
 
 
-#### This repo is currently compatible with macOS Catalina and OpenCore 0.7.3
+#### This repo is currently compatible with macOS Big Sur and OpenCore 0.8.4
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on **Catalina 10.15.7**: for the moment I stick with Catalina (Supplemental + Security Update - Build 19H1323) since I need a machine as stable and reliable as possible as a daily driver. However Big Sur compatibility should be fine (but untested).
+This EFI is built and tested on **Big Sur 11.6.8**: for the moment I stick with Big Sur (20G730) since I need a machine as stable and reliable as possible as a daily driver. However Ventura/Monterey compatibility should be fine (but untested).
 
 **This repository is for personal purposes**
 
@@ -108,7 +108,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2022 - February - 16
+#### 2022 - September - 11
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -245,19 +245,19 @@ Then update your clock via the built-in internet time setting to update the time
 
 | Item | Version | Remark |
 | :--- | :--- | :--- |
-| MacOS | 10.5.7 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.3 | Default Bootloader|
-| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.6 | Kext/process/framework/library patcher |
-| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.3 | Handle Graphics card |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.4 | Handle/fix onboard audio |
-| [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
-| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.3 | Handle hibernate status |
-| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.0.0 beta | Handle Bluetooth |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.1.0 beta | Handle native Wi-Fi card |
-| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.6 | Handle native Ethernet LAN card |
-| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.7 | Fix for NVMe SSDs |
-| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.4 | Block unwanted processes |
-| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.7 | SMC chip emulation |
+| MacOS | 11.6.8 | |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.4 | Default Bootloader|
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.2 | Kext/process/framework/library patcher |
+| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.1 | Handle Graphics card |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.5 | Handle/fix onboard audio |
+| [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.6 | Power management |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.6 | Handle hibernate status |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.2.0 | Handle Bluetooth |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.2.0 beta | Handle native Wi-Fi card |
+| [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 | Handle native Ethernet LAN card |
+| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.1.0 | Fix for NVMe SSDs |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.8 | Block unwanted processes |
+| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.0 | SMC chip emulation |
 | [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx/releases) | 9.0 | Micro SD card reader driver |
 | [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.7 | Inject USB ports |
 | [VoltageShift](https://github.com/sicreative/VoltageShift) | 1.25 | Undervoltage tool |
