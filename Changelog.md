@@ -1,6 +1,10 @@
 # Intel NUC7i3BNH Changelog
 
 English
+- **09-16-2022**
+
+	Update to **macOS Big Sur 11.7 (20G817)**
+
 - **09-11-2022**
 
 	Update to **macOS Big Sur 11.6.8 (20G730)**

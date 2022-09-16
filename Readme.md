@@ -14,7 +14,7 @@
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on **Big Sur 11.6.8**: for the moment I stick with Big Sur (20G730) since I need a machine as stable and reliable as possible as a daily driver. However Ventura/Monterey compatibility should be fine (but untested).
+This EFI is built and tested on **Big Sur 11.7**: for the moment I stick with Big Sur (20G817) since I need a machine as stable and reliable as possible as a daily driver. However Ventura/Monterey compatibility should be fine (but untested).
 
 **This repository is for personal purposes**
 
@@ -108,7 +108,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2022 - September - 11
+#### 2022 - September - 16
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -245,7 +245,7 @@ Then update your clock via the built-in internet time setting to update the time
 
 | Item | Version | Remark |
 | :--- | :--- | :--- |
-| MacOS | 11.6.8 | |
+| MacOS | 11.7 | |
 | [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.4 | Default Bootloader|
 | [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.2 | Kext/process/framework/library patcher |
 | [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.1 | Handle Graphics card |
