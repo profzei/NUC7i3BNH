@@ -10,7 +10,7 @@
 </p>
 
 
-#### This repo is currently compatible with macOS Big Sur and OpenCore 0.8.4
+#### This repo is currently compatible with macOS Big Sur and OpenCore 0.8.5
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
@@ -108,7 +108,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2022 - September - 16
+#### 2022 - October - 06
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -246,7 +246,7 @@ Then update your clock via the built-in internet time setting to update the time
 | Item | Version | Remark |
 | :--- | :--- | :--- |
 | MacOS | 11.7 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.4 | Default Bootloader|
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.5 | Default Bootloader|
 | [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.2 | Kext/process/framework/library patcher |
 | [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.1 | Handle Graphics card |
 | [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.5 | Handle/fix onboard audio |

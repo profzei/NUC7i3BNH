@@ -1,6 +1,21 @@
 # Intel NUC7i3BNH Changelog
 
 English
+
+- **10-06-2022**
+
+	**Update**
+	- Update `OpenCore` v. 0.8.5
+    - Update [kext] `VoodooPS2Controller` v. 2.3.1
+    - Update [kext] stripped `AirportItlwm_Big_Sur` v. 2.2.0 beta (commit ee56708)
+    - Update [kext] stripped `AirportItlwm_Catalina` v. 2.2.0 beta (commit ee56708)
+    - Added [kext] `FeatureUnlock` v. 1.0.9
+    - Added [kext] `USBPorts` with proper mapping for USB Controllers and related active ports (applied some changes in BIOS)
+
+    **OpenCore**
+    - No change needed for `config.plist` to support `OpenCore` v. 0.8.5
+    - Reduced warning messages number for `Intel(R) HD Graphics 620` in system log during boot phase: they are correct/normal, however eliminating those warnings reduces log-file size thus reducing slightly boot loading time.
+
 - **09-16-2022**
 
 	Update to **macOS Big Sur 11.7 (20G817)**
