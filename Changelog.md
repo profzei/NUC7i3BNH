@@ -2,6 +2,14 @@
 
 English
 
+- **10-31-2022**
+
+	Update to **macOS Big Sur 11.7.1 (20G918)**
+
+	**Update**
+	- Update [kext] `FakePCIID` v. 1.3.16
+	- Update [kext] `FakePCIID_Intel_HDMI_Audio` v. 1.3.16
+
 - **10-06-2022**
 
 	**Update**
