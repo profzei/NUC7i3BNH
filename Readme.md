@@ -10,7 +10,7 @@
 </p>
 
 
-#### This repo is currently compatible with macOS Big Sur and OpenCore 0.8.5
+#### This repo is currently compatible with macOS Big Sur and OpenCore 0.8.8
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
@@ -108,7 +108,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2022 - October - 31
+#### 2023 - January - 18
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -246,12 +246,12 @@ Then update your clock via the built-in internet time setting to update the time
 | Item | Version | Remark |
 | :--- | :--- | :--- |
 | MacOS | 11.7 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.5 | Default Bootloader|
-| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.2 | Kext/process/framework/library patcher |
-| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.1 | Handle Graphics card |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.5 | Handle/fix onboard audio |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.8 | Default Bootloader|
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.3 | Kext/process/framework/library patcher |
+| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.3 | Handle Graphics card |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.8 | Handle/fix onboard audio |
 | [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.6 | Power management |
-| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.6 | Handle hibernate status |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.7 | Handle hibernate status |
 | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.2.0 | Handle Bluetooth |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.2.0 beta | Handle native Wi-Fi card |
 | [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 | Handle native Ethernet LAN card |
