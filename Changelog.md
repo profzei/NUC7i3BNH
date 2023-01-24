@@ -2,6 +2,17 @@
 
 English
 
+- **01-24-2023**
+
+	**OpenCore**
+	- Update `config.plist`:
+		- Optimized `Intel(R) HD Graphics 620` support editing many entries
+		- Added `devide-id` entry for `Intel(R) Sunrise Point-LP High Defintion Audio Controller`
+
+- **01-23-2023**
+
+	Update `Readme` file: added a new section for setting up `BenQ PD2500Q` speakers as default audio output device
+
 - **01-18-2023**
 
     **Update**
