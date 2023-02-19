@@ -2,6 +2,23 @@
 
 English
 
+- **02-19-2023**
+
+	Update to **macOS Big Sur 11.7.4 (20G1120)**
+
+    **Update**
+    - Update `OpenCore` v. 0.8.9
+    - Update [kext] `AppleALC` v. 1.7.9
+    - Update [kext] `HibernationFixup` v. 1.4.8
+    - Update [kext] `WhateverGreen` v. 1.6.4
+
+- **02-11-2023**
+
+	Update to **macOS Big Sur 11.7.3 (20G1116)**
+
+	**Update**
+	- Update [kext] stripped `AirportItlwm_Big_Sur` v. 2.2.0 beta (commit ddd2768)
+
 - **01-24-2023**
 
 	**OpenCore**
@@ -21,7 +38,7 @@ English
     - Update [kext] `Lilu` v. 1.6.3
     - Update [kext] `WhateverGreen` v. 1.6.3
     - Update [driver] `HfsPlus.efi` (commit c2a9898): fix W^X for firmware drivers for ExFAT and HFS+
-    - Update [driver] `HfsPlus.efi` (commit c2a9898): fix W^X for firmware drivers for ExFAT and HFS+
+    - Update [driver] `ExFatDxe.efi` (commit c2a9898): fix W^X for firmware drivers for ExFAT and HFS+
 
     **OpenCore**
     - Update `config.plist` to support `OpenCore` v. 0.8.8
