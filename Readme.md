@@ -19,7 +19,7 @@ This EFI is built and tested on **Ventura 13.6.6**: retro-compatibility with Big
 **This repository is for personal purposes**
 
 <p align="center">
-<img src="Wiki/Images/AboutThisMac.png" width="70%" alt="About this Mac" />
+<img src="Wiki/Images/AboutThisMac.png" width="50%" alt="About this Mac" />
 </p>
 
 ### DISCLAIMER
