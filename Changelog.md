@@ -2,6 +2,10 @@
 
 English
 
+- **04-17-2024**
+
+	Implemented a cleaner code with various changes.
+
 - **02-19-2023**
 
 	Update to **macOS Big Sur 11.7.4 (20G1120)**
