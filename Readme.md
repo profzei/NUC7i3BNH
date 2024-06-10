@@ -4,17 +4,19 @@
 </p>
 <p align="center">
 <a href="https://downloadcenter.intel.com/it/product/95066/Kit-Intel-NUC-NUC7i3BNH" target="_blank"><img src="https://img.shields.io/badge/BIOS-BNKBL357-red.svg" /></a>
-<a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-purple.svg" /></a>
+<a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-APACHE_2.0-purple.svg" /></a>
 <a href="https://github.com/profzei/NUC7i3BNH/releases" target="_blank"><img src="https://img.shields.io/badge/Download-Releases-blue.svg" /></a>
 <a href="https://github.com/profzei/NUC7i3BNH/wiki" target="_blank"><img src="https://img.shields.io/badge/Support-Wiki-green.svg" /></a>
 </p>
 
 
-#### This repo is currently compatible with macOS Ventura and OpenCore 0.9.9
+#### This repo is currently compatible with macOS Ventura and OpenCore 1.0.0
 
 This repo contains information for getting macOS working on an **Intel NUC7i3BNH**.
 
-This EFI is built and tested on **Ventura 13.6.6**: retro-compatibility with Big Sur and Monterey is fine!
+This EFI is built and tested on **Ventura 13.6.7**: retro-compatibility with Big Sur and Monterey is fine!
+
+This EFI is also compatible with latest **macOS Sonoma**, but, honestly, how pleasant do you think user experience would be on an operating system mounted on an Intel 7 i3 processor (not even capable of Turbo Boost) with only 2 cores?
 
 **This repository is for personal purposes**
 
@@ -108,7 +110,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 ## Changelog
 
-#### 2024 - April - 17
+#### 2024 - June - 10
 See [**Current status**](Changelog.md)
 
 ## Status
@@ -255,8 +257,8 @@ Then update your clock via the built-in internet time setting to update the time
 
 | Item | Version | Remark |
 | :--- | :--- | :--- |
-| MacOS | 13.6.6 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.9.9 | Default Bootloader|
+| MacOS | 13.6.7 | |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 1.0.0 | Default Bootloader|
 | [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.7 | Kext/process/framework/library patcher |
 | [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.6 | Handle Graphics card |
 | [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.9 | Handle/fix onboard audio |

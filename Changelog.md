@@ -2,6 +2,13 @@
 
 English
 
+- **06-10-2024**
+
+	Update to **macOS Ventura 13.6.7 (22G720)**
+
+    **Update**
+    - Update `OpenCore` v. 1.0.0
+
 - **04-17-2024**
 
 	Implemented a cleaner code with various changes.
